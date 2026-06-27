@@ -21,6 +21,26 @@ Oscar represents the outdoor robotics branch of NOVAGrid. Theme: painted green w
 
 ---
 
+## 📁 Repository Structure
+```
+Oscar/
+├── README.md
+├── firmware/
+│   └── nano/
+│       └── motor_test/        (Arduino Nano motor control + test code)
+├── ros2_ws/
+│   └── src/
+│       └── oscar_bringup/     (launch files, configs)
+├── hardware/
+│   ├── pcb/                   (IBT-2 distribution board KiCad files)
+│   └── docs/                  (wiring diagrams, datasheets, hardware notes)
+├── docs/
+│   └── notes/                 (build logs, decisions, parts lists)
+└── scripts/                   (standalone test scripts — e.g. motor spin test)
+```
+
+---
+
 ## 🔩 Hardware
 
 ### Drivetrain (confirmed)
